@@ -1,0 +1,36 @@
+.container {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* font-size: 24px; */
+  }
+  
+  #count {
+    width: 90%;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(172, 108, 231);
+  }
+  /* #count b{
+    margin-bottom: 8%;
+    display: block;
+    font-size: 6em;
+    color: rgb(60, 60, 239);
+  } */
+  .button {
+    margin: 1.5%;
+    padding: 10px 20px;
+    font-size: 2.4em;
+    color: rgb(9, 133, 174);
+    font-weight: 700;
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+    .container button:hover{
+    color: blueviolet;
+    box-shadow: 90px rgb(233, 173, 105);
+    }
